@@ -1,0 +1,15 @@
+<section class="px-8 pt-16">
+  <h2 class="text-center text-4xl font-bold">Take your cybersecurity to the next level with Threat Protection</h2>
+  <p class="mx-auto mt-4 max-w-3xl text-center">
+    The new feature protects you from malware, trackers, and ads. Even if you’re not connected to a VPN.
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-12">
+    {% import 'sections/service-macro.njk' as macro %}
+
+    {{ macro.service('shadow-sm', '/assets/malware-protection.svg', 'Malware protection', 'Avoid malicious websites and protect your devices from malware.') }}
+
+    {{ macro.service('shadow-lg', '/assets/block-sign-tabs.svg', 'Tracker blocker', 'Block tracking cookies and browse the internet without leaving a trace.') }}
+
+    {{ macro.service('shadow-sm', '/assets/security-software.svg', 'Ad blocker', 'No more pop-ups and intrusive ads — only smooth browsing.') }}
+  </div>
+</section>

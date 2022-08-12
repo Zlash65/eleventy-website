@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <clipPath id="clip-Colored">
+      <rect width="600" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="Colored" clip-path="url(#clip-Colored)">
+    <rect width="600" height="600" fill="#6b624b"/>
+    <path id="Path_1" data-name="Path 1" d="M436.475-453.223,108.691,33.4H436.475V67.146H6.152V54.2L324.365-419.473H6.152v-33.749Z" transform="translate(78.687 493.038)" fill="#eedaa7"/>
+    <path id="Path_2" data-name="Path 2" d="M440.913,117,109.487-278.566l190.967.687L319.513-306H9.393l9,10.527L330.531,89.566,157.2,90.061l-17.83,26.923Z" transform="translate(524.913 205.5) rotate(180)" fill="#ebc35e"/>
+  </g>
+</svg>
