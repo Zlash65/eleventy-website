@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-website",
+  "version": "1.0.0",
+  "description": "Static website generator - 11ty project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy",
+    "tailwindcss": "^3.0.23"
+  }
+}

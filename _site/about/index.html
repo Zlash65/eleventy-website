@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Eleventy and Tailwind CSS</title>
+      <link rel="stylesheet" href="/css/styles.css" />
+   </head>
+   <body class="min-h-screen flex flex-col text-gray-700">
+      <header class="w-full bg-white flex justify-between items-center px-6 py-4 md:px-8">
+   <a href="/">
+      <img src="/assets/hero-logo.svg" alt="Logo" class="h-12" />
+   </a>
+   <nav>
+      <ul class="flex gap-10 font-semibold text-sm">
+         <li>
+            <a href="/" class="">Home</a>
+         </li>
+         <li>
+            <a href="/about" class="text-purple-700">About</a>
+         </li>
+      </ul>
+   </nav>
+</header>
+
+      
+<section class="px-8 py-6 bg-gradient-to-br from-cyan-400 to-purple-500">
+  <div class="mx-auto grid max-w-5xl grid-cols-1 items-center gap-12 md:grid-cols-2">
+    <div>
+      <h1 class="text-4xl font-bold leading-[1.1] text-white md:text-5xl">Why is NordVPN your best choice in Canada?
+      </h1>
+      <ul class="list-disc marker:text-blue-500">
+        <li>
+          <p class="pt-4 text-lg leading-[1.5] text-white">Next-generation encryption</p>
+        </li>
+        <li>
+          <p class="pt-4 text-lg leading-[1.5] text-white">Strict no-logs policy</p>
+        </li>
+        <li>
+          <p class="pt-4 text-lg leading-[1.5] text-white">Convenience and accessibility</p>
+        </li>
+      </ul>
+    </div>
+    <img src="/assets/girl-sitting.svg" alt="" class="max-h-[32rem]" />
+  </div>
+</section>
+
+
+<section class="py-12 px-8">
+  <div class="mx-auto max-w-5xl">
+    <h2 class="text-4xl font-bold">Get all the benefits of VPN</h2>
+    <div class="flex flex-col items-center justify-between gap-16 md:flex-row">
+      <p class="mt-4">
+        Protect yourself and your data online. Securely access apps, websites, entertainment, and more.
+      </p>
+      <a
+        href="#"
+        class="flex-shrink-0 rounded-full bg-gradient-to-br from-cyan-500 to-purple-500 py-2 px-8 font-semibold text-white">
+        Contact us
+      </a>
+    </div>
+  </div>
+</section>
+
+
+      <footer class="bg-white w-full text-center px-6 md:px-8 mt-auto">
+   <small>Copyrights &copy; 2022 | All rights reserved</small>
+</footer>
+
+   </body>
+</html>

@@ -1,0 +1,9 @@
+{% macro service(shadow, logo, heading, para) %}
+<div class="p-6 bg-white border border-gray-100 rounded-lg mx-auto text-center {{ shadow }}">
+  <img src={{ logo }} alt="Logo" class="mx-auto" />
+  <h3 class="font-semibold text-xl mt-2.5">{{ heading }}</h3>
+  <p class="mt-4 text-gray-600">
+    {{ para }}
+  </p>
+</div>
+{% endmacro %}
